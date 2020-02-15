@@ -12,14 +12,13 @@ end
 
 
 def not_safe?(speed)
-  if speed > 40? yes it is : no it is not 
-    return true
-  elsif speed 60 > ? yes it is : no it is not  
-  return true
-else
-  return false 
+    
+# (conditional) ? 'true/truthy'  'false/falsey'
+
+(speed >= 40 && speed <= 60)
+  
 	
 end
-end	
+
 
 
